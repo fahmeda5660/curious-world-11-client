@@ -1,0 +1,24 @@
+
+.react-tabs__tab {
+    font-size: 20px;
+    background-color: rgb(231, 11, 231);
+    color: white;
+    display: inline-block;
+    border: none;
+    margin: 2px;
+    list-style: none;
+    padding: 8px 40px;
+    cursor: pointer;
+    clip-path: polygon(10% 0, 100% 0%, 90% 99%, 0% 100%);
+}
+.react-tabs__tab.react-tabs__tab--selected{
+    background: purple;
+    border-color: transparent;
+    color: white;
+    border-radius: 0;
+}
+
+.react-tabs__tab-list {
+    margin: 0 10px;
+    padding: 0;
+}

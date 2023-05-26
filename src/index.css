@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+select#category {
+    border:0px;
+    outline:0px;
+ }
+.logoFooter{
+    filter: brightness(0) invert(1);
+}
+.footerTitle {
+    @apply text-white text-2xl font-semibold mt-[26px]
+}
+
+.icon-size {
+    @apply w-10 h-10 text-white
+}
+.login-list {
+    @apply mt-[19px] text-[20px] flex items-center  justify-center md:justify-normal lg:justify-normal
+}
+*{
+    font-family: 'Manrope', sans-serif;
+}
